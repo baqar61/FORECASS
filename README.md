@@ -38,6 +38,6 @@ The script supports both flat folders and Cityscapes-style subfolders.
    ```python
    PRED_ROOT = r"PATH_TO_PRED_FOLDER"
    GT_ROOT   = r"PATH_TO_GT_FOLDER"
-###Run:
+### Run
 python offline_validation.py
 
