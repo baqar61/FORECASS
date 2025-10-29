@@ -7,8 +7,8 @@ from tqdm import tqdm
 
 VALID_CLASSES = list(range(7)) 
 NUM_CLASSES = len(VALID_CLASSES)
-PRED_ROOT = r"C:\PHD_online_learning\ADVENT\results_idd"
-GT_ROOT   = r"C:\PHD_online_learning\DeepLabV3Plus-Pytorch-master_lora\datasets\data\cityscapesidd\gtFine\val"
+PRED_ROOT = #path to folder of predicted semantic maps
+GT_ROOT   = #path to folder of ground truth semantic maps
 TARGET_SIZE = (640, 320)  
 CLASS_NAMES = [
     "flat",         
@@ -169,3 +169,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
