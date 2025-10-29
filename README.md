@@ -17,7 +17,8 @@ Mapillary, achieving state-of-the-art results over both source-dependent and sou
 
 ## Offline evaluation (mIoU)
 
-This repository provides `offline_validation.py`, a standalone evaluation script for computing semantic segmentation quality (mean IoU) for FORECASS.
+This repository provides `offline_validation.py`, a standalone evaluation script for computing semantic segmentation quality (mean IoU) for FORECASS. 
+Full training and adaptation code for FORECASS will be released soon.
 
 ### Data
 A download link is provided with:
@@ -39,5 +40,6 @@ The script supports both flat folders and Cityscapes-style subfolders.
    PRED_ROOT = r"PATH_TO_PRED_FOLDER"
    GT_ROOT   = r"PATH_TO_GT_FOLDER"
 ### Run
+```python
 python offline_validation.py
 
