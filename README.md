@@ -18,7 +18,7 @@ Mapillary, achieving state-of-the-art results over both source-dependent and sou
 ## Offline evaluation (mIoU)
 
 This repository provides `offline_validation.py`, a standalone evaluation script for computing semantic segmentation quality (mean IoU) for FORECASS. 
-Full training and adaptation code for FORECASS will be released soon.
+Full training and adaptation code for FORECASS will be available soon (after acceptance of paper).
 
 ### Data
 A download link https://utbm-my.sharepoint.com/:f:/g/personal/baqar_abbas_utbm_fr/EorrpuM9biZGhneKXxDDdccBHZsnkvyqHaMHYWgVwJcSYw?e=fFAUGL is provided with:
