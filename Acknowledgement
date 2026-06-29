@@ -1,5 +1,0 @@
-This repository is adapted from the open-source DeepLabV3Plus-Pytorch implementation:
-
-https://github.com/VainF/DeepLabV3Plus-Pytorch
-
-We thank the original authors for providing the DeepLabV3/DeepLabV3+ training and inference framework. Our implementation extends this codebase with DC-LoRA for continual source-free semantic segmentation, including layer-targeted LoRA adaptation, EMA-teacher pseudo-labeling, temporally consistent pseudo-label refresh, checkpoint merging, and continual evaluation under the GTA → Cityscapes → IDD → Mapillary protocol.
