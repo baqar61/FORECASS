@@ -1,5 +1,5 @@
 ## Offline evaluation of saved predictions
-
+This repository currently provides offline evaluation code. Full training and adaptation code will be added later.
 `offline_validation.py` computes mIoU directly from saved segmentation predictions and ground-truth maps.
 
 [Download predictions and ground truth](https://utbm-my.sharepoint.com/:f:/g/personal/baqar_abbas_utbm_fr/EorrpuM9biZGhneKXxDDdccBHZsnkvyqHaMHYWgVwJcSYw?e=fFAUGL)
